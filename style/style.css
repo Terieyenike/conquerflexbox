@@ -73,11 +73,11 @@ header {
 
 .hamburger:before,
 .hamburger:after {
+  content: '';
   display: block;
   margin: 0 auto;
   height: 3px;
   background: var(--darkLight);
-  content: '';
   width: 70%;
   transition: transform 0.3s ease;
 }
@@ -331,7 +331,7 @@ footer p {
   }
 
   .section-one .row{
-    flex-direction: column;
+    display: block
   }
 
   .section-three .row{
